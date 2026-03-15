@@ -1,44 +1,45 @@
-# TITLE - Vendor Invoice Risk Detection & Freight Cost Analytics
-Overview-
+# Vendor Invoice Risk Detection & Freight Cost Analytics
+
+## Overview
 
 This project analyzes vendor invoice and purchase order data to understand transaction patterns and identify potentially risky invoices. The analysis combines SQL-based feature engineering, exploratory data analysis (EDA), and machine learning to generate insights and build predictive models.The dataset is stored in a SQLite database and processed using Python. The project also includes a small Streamlit application that allows users to interact with the trained models.
 
-Project Goal-
+## Project Goal
 
 The goal of this project is to use data analytics techniques to:
--analyze vendor invoice and purchase order data
--identify patterns that may indicate invoice anomalies
--predict freight costs associated with invoices
--flag invoices that may require manual verification
+- analyze vendor invoice and purchase order data
+- identify patterns that may indicate invoice anomalies
+- predict freight costs associated with invoices
+- flag invoices that may require manual verification
 
 This helps demonstrate how data analytics can support financial monitoring and operational decision-making.
 
-Components of this project -
+## Components of this project 
 
 1)Exploratory Data Analysis (EDA)
 
 Exploratory analysis was performed to better understand the dataset and identify useful relationships.
 
 Key analysis included:
--Handling missing values
--distribution of invoice and freight values
--comparison between invoice value and purchase order value
--correlation analysis between features
--examination of payment and receiving delays
+- Handling missing values
+- distribution of invoice and freight values
+- comparison between invoice value and purchase order value
+- correlation analysis between features
+- examination of payment and receiving delays
 Visualizations were created using libraries Matplotlib and Seaborn to better interpret patterns in the data.
 
 2)Data Processing & Feature Engineering
 
 Data is extracted from a SQLite database containing two main tables:
--vendor_invoice
--purchases
+- vendor_invoice
+- purchases
 
 Using SQL joins and aggregations, additional analytical features were created, including:
--total purchase value
--total item quantity
--number of brands per purchase order
--receiving delays
--time difference between purchase order, invoice, and payment
+- total purchase value
+- total item quantity
+- number of brands per purchase order
+- receiving delays
+- time difference between purchase order, invoice, and payment
 
 These features provide useful context for understanding invoice behavior.
 
@@ -69,7 +70,7 @@ estimate freight cost
 
 check whether an invoice may require manual review
 
- **Final Result **
+## Final Result
 
 The project produces two trained models:
 
@@ -79,7 +80,7 @@ Invoice risk classification model for identifying suspicious invoices
 
 These models are saved and integrated into a Streamlit dashboard, allowing users to input invoice details and obtain predictions in real time.
 
-PROJECT STRUCTURE
+## PROJECT STRUCTURE
 
 data/                   → SQLite database  
 freight_cost_prediction/ → freight prediction pipeline  
@@ -89,7 +90,7 @@ models/                 → saved trained models
 notebooks/              → exploratory data analysis and experimentation  
 app.py                  → Streamlit dashboard
 
-Skills Demonstrated
+## Skills Demonstrated
 
 -SQL data extraction and feature engineering
 -exploratory data analysis and visualization
@@ -98,9 +99,13 @@ Skills Demonstrated
 -building a simple data application using Streamlit
 
 
-Snapshots of model results, visualization plots, and the Streamlit user interface are included below.
+## Snapshots of model results, visualization plots, and the Streamlit user interface are included below
 
-![Streamlit UI](r1.png)
+![Streamlit UI](streamlit_ui1.png)
+![Streamlit UI](streamlit_ui2.png)
+![Result](result1.png)
+![Plot](plot.png)
+
 
 
 Author
