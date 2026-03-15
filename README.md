@@ -100,7 +100,7 @@ Skills Demonstrated
 
 Snapshots of model results, visualization plots, and the Streamlit user interface are included below.
 
-![Streamlit UI](Screenshot (1313).png)
+![Streamlit UI](r1.png)
 
 
 Author
