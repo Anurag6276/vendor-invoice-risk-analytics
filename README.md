@@ -1,4 +1,4 @@
-#TITLE - Vendor Invoice Risk Detection & Freight Cost Analytics
+# TITLE - Vendor Invoice Risk Detection & Freight Cost Analytics
 Overview-
 
 This project analyzes vendor invoice and purchase order data to understand transaction patterns and identify potentially risky invoices. The analysis combines SQL-based feature engineering, exploratory data analysis (EDA), and machine learning to generate insights and build predictive models.The dataset is stored in a SQLite database and processed using Python. The project also includes a small Streamlit application that allows users to interact with the trained models.
@@ -97,7 +97,11 @@ Skills Demonstrated
 -model evaluation and tuning
 -building a simple data application using Streamlit
 
-Screenshot (1309).png
+
+Snapshots of model results, visualization plots, and the Streamlit user interface are included below.
+
+![Streamlit UI](Screenshot (1313).png)
+
 
 Author
 Anurag Krishna
