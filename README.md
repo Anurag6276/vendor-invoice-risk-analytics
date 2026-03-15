@@ -97,6 +97,8 @@ Skills Demonstrated
 -model evaluation and tuning
 -building a simple data application using Streamlit
 
+Screenshot (1309).png
+
 Author
 Anurag Krishna
 Python Developer | Data Analytics & Machine Learning
